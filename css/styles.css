@@ -1,0 +1,1815 @@
+@font-face {
+    font-family: 'isans';
+    src: url('../fonts/IRANSans.ttf') format('truetype');
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: isans;
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start main style ******* ******* ******* ******* *******/
+
+.logo img {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(4, 22, 132);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 12px;
+    font-family: 'isans';
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    cursor: pointer;
+}
+
+.call-btn {
+    border: 1px solid rgb(232, 77, 135);
+    border-radius: 25px;
+    padding: 8px 30px;
+    direction: ltr;
+    color: rgb(232, 77, 135);
+    font-weight: 500;
+    font-family: isans;
+}
+
+.call-btn:hover {
+    color: rgb(232, 77, 135);
+    text-decoration: none;
+}
+
+
+/* @media(max-width:576px) {
+    .collapse {
+        background-color: rgb(246, 246, 248);
+        padding: 40px;
+    }
+} */
+
+.section-1 {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.section-1 img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.childe-sec1 {
+    position: absolute;
+    bottom: 50;
+}
+
+.childe-sec1 p {
+    font-family: isans;
+    color: #fff;
+    font-size: 14px;
+}
+
+.childe-sec1 p.befclass::after {
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 1px;
+    margin: 2px 12px;
+    background: #fff;
+}
+
+.childe-sec1 h2 {
+    font-family: isans;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.childe-sec1 a {
+    background-color: rgb(234, 76, 137);
+    padding: 6px 60px;
+    color: #fff;
+    font-family: isans;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.childe-sec1 a:hover {
+    text-decoration: none;
+}
+
+.childe-sec1 i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.scroll {
+    margin-top: 100px;
+}
+
+.scroll p {
+    font-size: 12px;
+}
+
+.scroll i {
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+.childe-sec2 {
+    position: absolute;
+    bottom: 30;
+}
+
+.childe-sec2 a i {
+    color: rgb(255, 255, 253);
+}
+
+.childe-sec2 div {
+    border: 1px solid rgb(255, 255, 253);
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands img {
+    width: 180px;
+}
+
+.section-2 {
+    background-color: rgb(246, 246, 248);
+    padding-bottom: 70px;
+}
+
+.section-2 .title h6 {
+    font-family: isans;
+    color: rgb(232, 77, 135);
+    padding-top: 70px;
+    font-weight: 600;
+}
+
+.section-2 .title h4 {
+    color: rgb(3, 21, 123);
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section-2 img {
+    width: 100%;
+    padding-left: 0;
+    border-radius: 5px;
+}
+
+.section-2 .who {
+    text-align: justify;
+}
+
+.section-2 .who p {
+    color: rgb(132, 132, 132);
+    font-size: 15px;
+}
+
+.section-2 .who img {
+    width: 150px;
+}
+
+@media(max-width:576px) {
+    .section-2 .who {
+        padding: 20px 50px;
+    }
+    .option-2 h5 {
+        text-align: center;
+    }
+}
+
+.section-2 .option-1 {
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+@media(max-width:576px) {
+    .section-2 .option-1 {
+        width: 100%;
+    }
+}
+
+.option-1 {
+    padding: 40px 30px;
+    color: rgb(181, 179, 200);
+}
+
+.option-1 h6 {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.option-1 i {
+    color: rgb(240, 118, 165);
+}
+
+.option-1 h6 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+}
+
+.option-1 p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.option-1.active {
+    color: rgb(181, 179, 200);
+    background-color: rgb(5, 21, 132);
+}
+
+.option-1.active i {
+    color: #fff;
+}
+
+.option-1.active h6 {
+    color: #fff;
+}
+
+.option-1 i {
+    font-size: 50px;
+}
+
+.option-2 h5 {
+    color: rgb(240, 118, 165);
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-size: 16px;
+    position: relative;
+}
+
+.option-2 h5::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.option-2 h4 {
+    font-weight: 600;
+    color: rgb(5, 21, 132);
+    text-align: justify;
+    padding-bottom: 50px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.option-2 p {
+    text-align: justify;
+    color: rgb(181, 179, 200);
+    font-size: 13px;
+}
+
+.option-2 a {
+    border-radius: 30px;
+    color: #fff;
+    background-color: rgb(240, 118, 165);
+    padding: 12px 35px;
+    margin: 25px 0;
+}
+
+.option-2 a:hover {
+    color: #fff;
+}
+
+.example h6 {
+    font-weight: 600;
+    color: rgb(232, 77, 135);
+    font-size: 15px;
+}
+
+.example section {
+    position: relative;
+}
+
+.example h6::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.example h5 {
+    color: rgb(5, 21, 132);
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.example-2 a {
+    color: rgb(5, 21, 132);
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.example-2 a.active {
+    color: rgb(232, 77, 135);
+    border-bottom: 2px dashed rgb(232, 77, 135);
+}
+
+.example-2 a:hover {
+    color: rgb(232, 77, 135);
+    border-bottom: 2px dashed rgb(232, 77, 135);
+    text-decoration: none;
+}
+
+.example-2 ul {
+    padding-right: 0;
+    /* padding-left: 140px; */
+    text-align: left;
+}
+
+.big-img img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 1.1rem;
+    object-fit: cover;
+}
+
+.small-img img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 1.1rem;
+    object-fit: cover;
+}
+
+.small-img img:hover {
+    opacity: 0.5;
+    transition: all .3s ease;
+}
+
+.big-img img:hover {
+    transition: all .3s ease;
+    opacity: 0.3;
+}
+
+.hoverShow {
+    display: none;
+    position: absolute;
+    top: 180;
+    color: #fff;
+    padding: 20px;
+}
+
+@media(max-width:991.98px) {
+    .hoverShow {
+        top: 150;
+    }
+}
+
+.hoverShow p {
+    margin: 0;
+}
+
+.big-img {
+    position: relative;
+}
+
+.big-img:hover .hoverShow {
+    transition: all .3s ease;
+    display: block;
+}
+
+.hoverShow h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.hoverShow p {
+    font-size: 10px;
+}
+
+.hoverShow a {
+    border-radius: 50%;
+    background-color: rgb(234, 76, 137);
+    color: #fff;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.hoverShow a:hover {
+    color: #fff;
+}
+
+.small-img {
+    position: relative;
+}
+
+.hoverSmallShow {
+    position: absolute;
+    top: 70;
+    color: #fff;
+    padding: 12px;
+    display: none;
+}
+
+@media(max-width:991.98px) {
+    .hoverSmallShow {
+        top: 50;
+    }
+}
+
+.hoverSmallShow h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.hoverSmallShow p {
+    font-size: 10px;
+}
+
+.hoverSmallShow a {
+    border-radius: 50%;
+    background-color: rgb(234, 76, 137);
+    color: #fff;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.small-img:hover .hoverSmallShow {
+    transition: all .3s ease;
+    display: block;
+}
+
+.how-i-better {
+    background-color: #fff;
+    width: 100%;
+    color: rgb(3, 21, 123);
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.how-i-better i {
+    color: rgb(234, 76, 137);
+    margin-left: 0.888rem;
+}
+
+.how-i-better i::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f067";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.how-i-better h6 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.how-i-better p {
+    color: rgb(132, 132, 132);
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.how-i-better.active {
+    background-color: rgb(5, 21, 132);
+}
+
+.how-i-better.active h6,
+.how-i-better.active i {
+    color: #fff;
+}
+
+.how-i-better.active p {
+    color: rgb(209, 209, 209);
+}
+
+.how-i-better.active i::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f068";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.iformation h6 {
+    color: rgb(234, 76, 137);
+    line-height: 2;
+}
+
+.iformation h6::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.iformation h5 {
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(54, 55, 59);
+    line-height: 2.5;
+}
+
+.iformation p {
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(119, 119, 119);
+}
+
+.range-div {
+    margin-top: 35px;
+}
+
+.range-div .progress {
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin: 20px 0 10px 0;
+}
+
+.progress .progress-bar {
+    background-color: rgb(232, 77, 135);
+}
+
+.circle {
+    width: 60;
+    height: 60;
+    border-radius: 50%;
+    background-color: rgb(234, 76, 137);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle span {
+    color: #fff;
+    font-weight: 600;
+}
+
+.circle:before {
+    position: absolute;
+    content: "";
+    width: 30;
+    height: 30;
+    border-style: solid;
+    border-width: 24px 16.5px 0 16.5px;
+    border-color: rgb(234, 76, 137) transparent transparent transparent;
+    top: 50;
+    right: 12;
+}
+
+.pink-box {
+    right: 0;
+    position: absolute;
+    width: 120%;
+    background-color: rgb(234, 76, 137);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+@media(max-width:978px) {
+    .pink-box {
+        width: 100%;
+        position: relative;
+    }
+}
+
+.pink-box section img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px 0 10px 10px;
+}
+
+.pink-box p {
+    margin: 0;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.pink-box section h6 {
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0;
+    line-height: 2;
+}
+
+.pink-box section span {
+    font-size: 11px;
+}
+
+.image-box {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: 350px;
+}
+
+.blue-box {
+    background-color: rgb(3, 21, 133);
+}
+
+.blue-box h5 {
+    font-size: 12px;
+    padding: 25px 19px 0 0;
+    margin: 0;
+}
+
+.carousel-indicators {
+    right: -800;
+}
+
+@media(max-width:576px) {
+    .carousel-indicators {
+        right: 0;
+        bottom: -10;
+    }
+}
+
+@media(max-width:978px) {
+    .carousel-indicators {
+        right: 0;
+    }
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.carousel-indicators li.active {
+    background-color: #fff;
+}
+
+.titr-dreamWork {
+    padding: 55px 0;
+    text-align: center;
+}
+
+.titr-dreamWork h6 {
+    color: rgb(232, 77, 135);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.titr-dreamWork h5 {
+    color: rgb(3, 21, 123);
+    font-weight: 600;
+}
+
+.dream-work img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dream-work h5 {
+    font-weight: 600;
+    color: rgb(3, 21, 123);
+    font-size: 13px;
+    margin: 10px 0 4px 0;
+}
+
+.dream-work span {
+    font-size: 11px;
+    color: rgb(232, 77, 135);
+}
+
+.dream-work i {
+    color: rgb(163, 163, 163);
+    margin: 25px 6px;
+}
+
+.sec section h4 {
+    font-weight: 600;
+    color: rgb(232, 77, 135);
+    font-size: 30px;
+}
+
+.sec section p {
+    font-size: 11px;
+    color: rgb(182, 182, 182);
+    margin: 0 5px;
+}
+
+.great-titr {
+    padding-top: 50px;
+    width: 230px;
+}
+
+.great-titr h5 {
+    font-size: 12px;
+    color: rgb(232, 77, 135);
+}
+
+.great-titr h5::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.great-titr h6 {
+    font-weight: 600;
+    color: rgb(3, 21, 123);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.great-options .position {
+    position: relative;
+}
+
+.great-options img {
+    border-radius: 10px;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.great-options .date {
+    position: absolute;
+    border-radius: 25px;
+    padding: 5px 60px;
+    background-color: #fff;
+    bottom: 14;
+    right: 14;
+    box-shadow: rgb(250, 102, 159);
+}
+
+.great-options .date a {
+    color: rgb(234, 76, 137);
+    font-size: 12px;
+}
+
+.great-options .date:hover {
+    box-shadow: 0px 0px 21px 0px rgba(240, 113, 172, 0.5);
+    font-weight: 600;
+}
+
+.great-options .date a:hover {
+    text-decoration: none;
+}
+
+.great-options h5 {
+    color: rgb(3, 21, 123);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.great-options p {
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+    text-align: justify;
+}
+
+.questions section {
+    width: 55%;
+}
+
+.questions section h5 {
+    line-height: 1.5;
+    color: rgb(3, 21, 123);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.questions input[type="email"] {
+    border-radius: 20px;
+    position: relative;
+}
+
+.questions .btn {
+    background-color: rgb(232, 77, 135);
+    color: rgb(246, 246, 248);
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    padding: 9px 30px;
+    font-size: 12px;
+}
+
+.questions .btn:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #eee;
+}
+
+.questions input[type="email"]:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #eee;
+}
+
+::placeholder {
+    font-size: 10px;
+}
+
+.end {
+    background-color: rgb(3, 21, 131);
+}
+
+.end-part2 ul {
+    list-style: none;
+    text-align: center;
+}
+
+.end-part2 ul a {
+    color: rgb(235, 235, 235);
+    font-size: 14px;
+}
+
+.end-part2 ul a:hover {
+    text-decoration: none;
+}
+
+.end h5 {
+    color: #fff;
+    font-weight: 600;
+    text-align: right;
+    font-size: 16px;
+}
+
+.end-part2 ul li {
+    line-height: 2.5;
+}
+
+.end-part1 p {
+    color: rgb(235, 235, 235);
+    text-align: justify;
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+.endpart3 span {
+    color: rgb(235, 235, 235);
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+.end .borderd {
+    border-bottom: 0.5px solid rgb(163, 163, 163);
+}
+
+.end .text-small {
+    font-size: 14px;
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start news style ******* ******* ******* ******* *******/
+
+.news-header {
+    background-color: rgb(246, 246, 248);
+}
+
+.news-logo img {
+    width: 100px;
+    margin-left: 50px;
+}
+
+#navbar i {
+    font-size: 20px;
+    color: rgb(4, 22, 132);
+    position: absolute;
+    left: 0;
+}
+
+#navbar input[type=text] {
+    border: none;
+    position: relative;
+    display: none;
+    background-color: transparent;
+    border-right: 1px solid rgb(127, 150, 255);
+    border-top: 1px solid rgb(127, 150, 255);
+    border-bottom: 1px solid rgb(127, 150, 255);
+    border-radius: 6px;
+}
+
+#navbar input[type=text]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.news-header h3 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+}
+
+.news-header .nav .nav-link {
+    color: rgb(3, 21, 133);
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.shape img {
+    width: 100px;
+}
+
+.more-btn {
+    width: 150px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: rgb(224, 44, 110);
+    font-size: 13px;
+    color: #fff;
+}
+
+.more-btn:hover {
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start blog style ******* ******* ******* ******* *******/
+
+.right-div h4 {
+    color: rgb(3, 21, 131);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.right-div ul li,
+a {
+    font-size: 12px;
+    color: rgb(122, 122, 122);
+}
+
+.right-div a:hover {
+    color: rgb(146, 146, 146);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.right-div p {
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+    text-align: justify;
+    margin: 30px 0;
+}
+
+.gray-box {
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 13px;
+    padding: 20px 35px;
+}
+
+.gray-box p {
+    margin: 0;
+}
+
+.chek-list i {
+    font-size: 15px;
+    color: rgb(232, 77, 135);
+    margin-left: 10px;
+}
+
+.chek-list span {
+    font-size: 14px;
+    color: rgb(58, 58, 58);
+}
+
+.about {
+    border-top: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+    padding: 20px 0;
+    margin: 30px 0;
+}
+
+.about .btn {
+    color: #fff;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: rgb(3, 21, 131);
+    padding: 5px 18px;
+}
+
+.buttons a:last-child {
+    background-color: rgb(232, 77, 135);
+}
+
+.about i {
+    font-size: 17px;
+    color: rgb(184, 184, 184);
+    padding: 0 3px;
+}
+
+.gray-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+.gray-box h6 {
+    font-size: 14px;
+    color: rgb(3, 21, 123);
+    font-weight: 600;
+}
+
+.comments h5 {
+    color: rgb(3, 21, 123);
+    font-weight: 600;
+}
+
+.comments img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comments h6 {
+    color: rgb(3, 21, 123);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.comments span {
+    color: rgb(170, 169, 169);
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.comments p {
+    margin: 0;
+    color: gray;
+    width: 80%;
+}
+
+.reply i {
+    color: rgb(250, 102, 159);
+}
+
+.reply span {
+    color: rgb(250, 102, 159);
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.related-articles h6 {
+    font-weight: 600;
+    color: rgb(3, 21, 123);
+}
+
+.related-articles p {
+    margin: 0;
+}
+
+.related-articles img {
+    width: 100%;
+}
+
+.leave-coment h6 {
+    color: rgb(3, 21, 123);
+    font-weight: 600;
+}
+
+.leave-coment textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.leave-coment textarea {
+    margin: 10px 0;
+}
+
+.leave-coment .form-control {
+    border-radius: 20px;
+    padding: 25px 10px;
+}
+
+.leave-coment .form-control:focus {
+    box-shadow: none;
+}
+
+.leave-coment input[type="text"] {
+    margin: 10px 0;
+    width: 49%;
+}
+
+.leave-coment .btn {
+    background-color: rgb(232, 77, 135);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.leave-coment .btn:focus {
+    box-shadow: none;
+}
+
+.blog-search-box input[type="text"] {
+    position: relative;
+    width: 100%;
+    border-radius: 50px;
+    padding: 15px 10px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.blog-search-box input[type="text"]:focus {
+    box-shadow: none;
+    border: 1px solid rgb(150, 150, 150);
+    outline: none;
+}
+
+.blog-search-box .btn {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(232, 77, 135);
+    width: 45px;
+    height: 45px;
+    left: 22px;
+    top: 6px;
+}
+
+.blog-search-box .btn i {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.categories h5 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.categories p {
+    font-size: 13px;
+    color: gray;
+}
+
+.recent-blog img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+
+.recent-blog h5 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+    margin: 20px 0 25px 0;
+    font-size: 16px;
+}
+
+.recent-blog h6 {
+    color: rgb(3, 21, 133);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.recent-blog p {
+    font-size: 11px;
+    color: rgb(232, 77, 135);
+}
+
+.useful-tags h5 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+    margin: 40px 0 25px 0;
+    font-size: 16px;
+}
+
+.useful-tags span {
+    color: rgb(3, 21, 133);
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 7px;
+    font-size: 10px;
+}
+
+.useful-tags a {
+    color: rgb(3, 21, 133);
+}
+
+.useful-tags a:hover {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start portfolio style ******* ******* ******* ******* *******/
+
+.titr-best-pricing h6 {
+    color: rgb(232, 77, 135);
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+}
+
+.titr-best-pricing h6::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.titr-best-pricing h5 {
+    color: rgb(3, 21, 131);
+    font-weight: 600;
+    line-height: 2;
+}
+
+.best-pricing p {
+    color: rgb(93, 96, 112);
+    font-size: 13px;
+    text-align: justify;
+}
+
+.primary-task h6 {
+    color: rgb(234, 76, 137);
+    font-weight: 600;
+    margin: 25px 0 20 0;
+}
+
+.deliveris {
+    border-bottom: 1px solid rgb(234, 76, 137);
+    padding: 10px;
+}
+
+.deliveris h6 {
+    color: rgb(232, 77, 135);
+    font-size: 12px;
+}
+
+.deliveris p {
+    color: rgb(3, 21, 123);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.deliveris i {
+    color: rgb(232, 77, 135);
+    font-size: 50px;
+}
+
+.social-media {
+    background-color: rgb(246, 246, 248);
+    z-index: 1;
+    text-align: center;
+}
+
+.social-media img {
+    z-index: 2;
+    margin-top: -100;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+}
+
+.social-media h6 {
+    color: rgb(4, 22, 132);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.social-media .carousel-inner {
+    overflow: initial;
+}
+
+.get-projrct h6 {
+    color: rgb(234, 76, 137);
+    font-size: 13px;
+}
+
+.get-projrct h6::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.get-projrct h5 {
+    color: rgb(5, 21, 132);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 3;
+}
+
+.get-projrct p {
+    color: gray;
+    font-size: 13px;
+}
+
+.get-projrct .btn {
+    color: #fff;
+    background-color: rgb(232, 77, 135);
+    font-size: 13px;
+    border-radius: 23px;
+    padding: 7px 37px;
+}
+
+.social-media .bord {
+    border: 2px solid rgb(232, 77, 135);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.social-media .bord i {
+    color: rgb(232, 77, 135);
+    width: 15px;
+}
+
+.socalMedia h6 {
+    color: rgb(5, 21, 132);
+}
+
+.socalMedia span {
+    color: rgb(232, 77, 135);
+    font-size: 13px;
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start experts style ******* ******* ******* ******* *******/
+
+.experts-information h5 {
+    font-size: 18px;
+}
+
+.experts-information span {
+    font-size: 12px;
+}
+
+.experts-information p {
+    text-align: justify;
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+.experts-information a.btn {
+    background-color: rgb(232, 77, 135);
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px 33px;
+    font-size: 14px;
+}
+
+.experts-information-pink img {
+    width: 150px;
+    height: 150px;
+    margin-right: 330px;
+}
+
+.experts-information-pink {
+    position: relative;
+    background-color: rgb(232, 77, 135);
+    width: 100%;
+    height: 100%;
+}
+
+.experts-information-blue {
+    background-color: rgb(4, 22, 132);
+    width: 100%;
+}
+
+experts-information p {
+    text-align: justify;
+}
+
+.experts-information-blue ul {
+    list-style: none;
+}
+
+.experts-information-blue i {
+    color: #fff;
+    font-size: 15px;
+}
+
+.experts-information-blue li a {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+
+.meet-experts {
+    width: 70%;
+}
+
+.meet-experts h6 {
+    color: rgb(232, 77, 135);
+    font-size: 12px;
+}
+
+.meet-experts h6::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.meet-experts h5 {
+    color: rgb(4, 22, 132);
+    font-weight: 600;
+    margin: 12px 0 30px 0;
+}
+
+.meet-experts span {
+    font-size: 12px;
+    color: gray;
+    text-align: justify;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.meet-experts .btn {
+    border-radius: 20px;
+    padding: 8px 45px;
+    background-color: rgb(232, 77, 135);
+    color: #fff;
+    font-size: 13px;
+}
+
+.meet-experts-img .w {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    position: relative;
+}
+
+.meet-experts-img .w section {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+}
+
+.meet-experts-img img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.meet-experts-img .w:hover {
+    background-color: rgba(4, 22, 132, 0.5);
+    opacity: 0.5;
+    transition: all .3s ease;
+}
+
+.meet-experts-img .w h5 {
+    display: none;
+    color: #fff;
+}
+
+.meet-experts-img .w p {
+    display: none;
+    color: #fff;
+}
+
+.meet-experts-img .w:hover p {
+    display: block;
+    font-size: 13px;
+}
+
+.meet-experts-img .w:hover h5 {
+    display: block;
+    font-size: 16px;
+}
+
+.meet-experts-img .w:hover {
+    transform: scale(1.2, 1.2);
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start our_portfolio style ******* ******* ******* ******* *******/
+
+.social-mediaa img {
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.social-mediaa section h6 {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(4, 22, 132);
+    font-weight: 600;
+}
+
+.social-mediaa section p {
+    font-size: 12px;
+    color: rgb(232, 77, 135);
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start pricing style ******* ******* ******* ******* *******/
+
+.best-pricing h6 {
+    color: rgb(232, 77, 135);
+    font-size: 13px;
+    line-height: 2;
+}
+
+.best-pricing h6::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.best-pricing h5 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+}
+
+.web-information h6 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+}
+
+.web-information span {
+    color: rgb(232, 77, 135);
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.website-info i {
+    color: rgb(232, 77, 135);
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.website-info p {
+    font-size: 12px;
+    color: rgb(151, 150, 150);
+    text-align: justify;
+}
+
+.choes-pricing-title h6 {
+    color: rgb(232, 77, 135);
+    font-size: 14px;
+}
+
+.choes-pricing-title h5 {
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.pricing-header form {
+    position: relative;
+}
+
+.pricing-header input[type="email"] {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.pricing-header form .btn {
+    background-color: rgb(232, 77, 135);
+    color: rgb(246, 246, 248);
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    padding: 9px 50px;
+    font-size: 12px;
+}
+
+.price-section {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.price-section h6 {
+    color: rgb(3, 21, 131);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.price-section h5 {
+    color: rgb(232, 77, 135);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.price-section span {
+    color: rgb(93, 96, 112);
+    font-size: 13px;
+}
+
+.price-section p {
+    color: rgb(93, 96, 112);
+    font-size: 13px;
+    text-align: justify;
+    text-decoration: solid;
+}
+
+.shopping-btn {
+    margin-top: -20;
+    background-color: rgb(232, 77, 135);
+    color: rgb(246, 246, 248);
+    border-radius: 20px;
+    padding: 9px 50px;
+    font-size: 12px;
+}
+
+.shopping-btn:hover {
+    color: rgb(246, 246, 248);
+    font-weight: 600;
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start our_portfolio_2 style ******* ******* ******* ******* *******/
+
+.p-small img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.p-big img {
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+}
+
+
+/* ******* ******* ******* ******* ******* ******* ******* start service style ******* ******* ******* ******* *******/
+
+.working-technologi h5 {
+    font-size: 18px;
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+}
+
+.working-technologi p {
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+    text-align: justify;
+}
+
+.best-solutions h5 {
+    font-size: 18px;
+    color: rgb(3, 21, 133);
+    font-weight: 600;
+}
+
+.solutions-choise {
+    color: rgb(3, 21, 123);
+    padding: 18px 0px;
+    cursor: pointer;
+}
+
+.solutions-choise i {
+    color: rgb(234, 76, 137);
+    margin-left: 0.888rem;
+}
+
+.solutions-choise i::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f067";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.solutions-choise h6 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.solutions-choise p {
+    color: rgb(132, 132, 132);
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.p-solutions {
+    color: rgb(132, 132, 132);
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.solutions-choise.active i::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f068";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.solution-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.persent h6 {
+    color: rgb(232, 77, 135);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.persent span {
+    display: block;
+    color: rgb(3, 21, 133);
+    font-size: 12px;
+}
+
+.persent section {
+    text-align: center;
+}
+
+.persent-p {
+    color: rgb(122, 122, 122);
+    font-size: 12px;
+    text-align: justify;
+}
+
+.how-we-do {
+    width: 230px;
+}
+
+.how-we-do h5 {
+    font-size: 12px;
+    color: rgb(232, 77, 135);
+}
+
+.how-we-do h5::after {
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 2px 15px;
+    background: rgb(232, 77, 135);
+}
+
+.how-we-do h6 {
+    font-weight: 600;
+    color: rgb(3, 21, 123);
+    font-size: 16px;
+    line-height: 1.5;
+}
